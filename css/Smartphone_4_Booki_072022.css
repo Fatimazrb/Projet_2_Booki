@@ -1,0 +1,394 @@
+@media all and (max-width: 768px) { /* Smartphone */
+    body{
+       font-family: "raleway", sans empattement, "arial", 'Times New Roman' ;
+       font-size: 15px;
+       color: black;
+       margin: 15px;
+   }
+   /* Header */
+
+   #logo{ /* Logo Booki */
+       height: 45px; /* Hauteur */
+       width: auto;
+       display: flex;
+       margin: auto;
+       
+   }
+   
+   header nav { /* Tout l'entête */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+    
+   #menu{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+   }
+
+    header a{
+    color:black;
+    text-decoration:none;
+    height: 60px;
+    border: 3px solid #F2F2F2;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 90px;
+    padding-top: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+   }
+
+   header a:hover{
+    border-bottom: 3px solid;
+    color: #0065FC;
+    cursor: pointer;
+    width: 70%;
+}
+
+
+   /* Section 1 */
+             
+   .section1{
+    justify-content: center;
+    width: 100%;
+    padding-left: 20px;
+   }
+   #localisation{ /* Icone de localisation */
+       height: 20px; /* Hauteur */
+       width: 20px; /* Largueur */
+       border-radius: 15px 0 0 15px; /* Haut Droite Bas Gauche */
+       background-color: #F2F2F2 ;
+       padding: 10px 10px;
+       float: left;
+       text-align: center;
+       font-size: 100%;
+   }
+     
+   
+   .element1{  /*Zone texte  de Recherche */
+       font-size: 15px;
+       border-top: 1px solid  #F2F2F2;
+       border-bottom: 1px solid  #F2F2F2 ;
+       border-right: none;
+       border-left: none;
+       padding: 10px;
+       font-weight: bold ;
+       width: 220px;
+       margin-right: -15px;
+   }
+       
+.element2 {  /* Barre Rechercher */
+background-color : #0065FC;
+color:white;
+font-size: 15px;
+border: none ;
+border-radius: 0 15px 15px 0; /* Haut Droite Bas Gauche */
+padding: 12px; 
+width:120px; /* Largueur */
+text-align:left;
+}
+
+#barre{
+    display: none;
+}
+
+button{
+text-align: left;
+border-radius: 12px;
+background-color: #0065FC;
+padding: 12px;
+color: white;
+border:none
+}
+
+   button:hover{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    cursor: pointer;
+   
+}   
+
+
+   /* Section 2 */
+       
+#section2{    
+font-weight: bold;
+font-size: 15px;
+margin-top: 20px;
+justify-content: center;
+    width: 100%;
+    padding-left: 20px;
+   }
+}
+       
+.bordure{   /* Bordure des filtres */
+border-radius: 0 25px 25px 0 ;
+border: 2px solid #F2F2F2;
+border-left: none;
+padding: 10px 10px 10px 20px; /* Haut Droite Bas Gauche */
+width: 90px; /* Largueur */
+margin-left: -15px;   
+}
+       
+.icon {
+border-radius: 100%;
+background-color: #DEEBFF;
+color: #0065FC;
+padding: 15px;
+text-align: center;
+font-size: 100%;
+}
+ 
+.block{ /* Block des Icones + Filtres */
+align-items: center;
+margin-bottom: 20px;
+}
+
+.filtre{ /* Marge des filtres */
+display: flex;
+margin-bottom: 10px;
+}
+
+.filtre_aligne{
+display: flex;
+}
+
+.filtre:hover{
+cursor: pointer;
+transform: scale(1.1);
+}
+
+.famille{ /* Icone Famille */
+width: 16px; /* Largueur */
+margin-left: 20px;
+}
+       
+.familial{
+width: 60px; /* Largueur */
+}
+       
+.animaux{
+width: 140px; /* Largueur */    
+}
+
+.marge{ /*Marge du mot Filtres */
+margin-right: 20px;
+margin-bottom: 10px;
+}
+          
+#info{ /* Titre + Logo */
+display: flex;
+font-size: 15px;
+margin-top: 20px;
+}
+       
+.fa-info { /* Logo Info */
+border: 2px solid #F2F2F2;
+color:#0065FC;
+font-weight: bold;
+text-align: center;
+border-radius: 25px;
+padding: 5px;
+width: 10px; /* Largueur */
+height: 10px; /* Hauteur */
+font-size: 10px;   
+margin-top: 10px;
+}
+       
+#logement{ /* Titre à coté du Logo */
+font-weight: normal;
+margin-left: 15px;   
+flex-wrap: wrap; 
+}
+       
+   /* Section 3 Hébergement */
+      
+#blockhébergement{
+display: flex;
+flex-direction: column-reverse;
+margin-bottom: 50px;
+margin-top: 20px;
+width: 100%;
+}
+
+
+#section3{
+margin-top: 50px;
+width: 100%;
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+   
+#section3 .effet{ /* Block image + son texte */
+background-color: white;
+border-radius: 20px;
+width: 110%; /* Largueur */
+height: 190px; /* Hauteur */
+margin-bottom: 20px;
+box-shadow: 5px 5px 5px 5px   #F2F2F2;
+margin-left: -5px;
+}
+
+.effet:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+       
+    #section3 img{
+        background-color: white;
+        border-radius: 20px 20px 0 0;
+        width: 97%; /* Largueur */
+        height: 100px; /* Hauteur */
+        padding: 5px 5px 0 5px;
+        margin-bottom: -10px;
+        object-fit: cover;
+    }
+    
+    #section3 div{
+        margin-left: 15px;
+    }
+
+    #section3 h3{
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+
+
+.fa-star{
+color: #0065FC;
+margin-top: 5px;
+}
+.black{
+color: grey;
+opacity: 0.3;
+}
+
+     
+    /* Hébergement Populaire   Aside */
+
+aside{
+background-color: #F2F2F2;
+justify-content: center;
+padding: 10px;
+width: 110%;
+height: 580px;
+}
+
+aside article{
+display: flex;
+background-color: white;
+border-radius: 20px;
+width: 90%; /* Largueur */
+height: 140px; /* Hauteur */
+margin-bottom: 30px;
+}
+
+aside a {
+    display: flex;
+    justify-content: center;
+}
+    aside img{
+        background-color: white;
+        border-radius: 20px 0 0  20px;
+        width: 35%; /* Largueur */
+        height: 94%; /* Hauteur */
+        padding: 5px;
+        object-fit: cover;
+    }
+
+    .description{ /* Nom hôtel + tarif et étoile */
+        flex-direction: column;
+    }
+    
+#populaire{
+display: flex;
+justify-content: center; 
+width: 100%;
+height: 50px;
+margin-bottom: 20px;    
+}
+
+    .etoile{
+        color:black;
+        font-size: 20px;
+        margin-left: 120px;
+    }
+
+
+    /* Section 4 Activité */
+
+#section4{
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20px;
+    display: flex;
+}
+
+#section4 .effet{ /* Block image + son texte */
+background-color: white;
+border-radius: 20px;
+width: 100%; /* Largueur */
+height: 190px; /* Hauteur */
+margin-bottom: 30px;
+box-shadow: 5px 5px 5px 5px #F2F2F2;
+}
+
+    #section4 img{
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    width: 100%; /* Largueur */
+    height: 140px; /* Hauteur */
+    margin-bottom: -10px;
+    object-fit: cover;
+    }
+
+    .effet:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+        }
+
+    #section4 h4{
+    margin-left: 15px;
+    margin-top: 25px;
+    }
+
+a{
+color:black;
+text-decoration: none;
+}
+    
+        /*Footer*/
+       
+footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: #F2F2F2;
+margin-top: 50px;
+justify-content: space-around;
+margin-right: -50px;
+margin-left: -20px;
+}
+       
+    footer ul{
+    margin-left: 5px;
+    list-style: none;
+    flex-direction: column;
+    border-bottom: none;
+    }
+        
+    footer li{
+    margin-bottom: 10px;
+    }
+
+    footer h3{
+    margin-bottom: 5px;
+    }
+       
+}
